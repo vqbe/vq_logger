@@ -2,10 +2,10 @@
 A simple header only library implemented in C99
 
 ## Examples
-Default
+### Default
 ![Example image](./examples/example.png)
 
-Colors enabled
+### Colors enabled
 ![Example colored image](./examples/colored_example.png)
 
 ## Usage
@@ -22,4 +22,4 @@ Other files should simply include the header
 ```
 
 ## How to enable colors?
-When compiling enable flag ``VQ_LOGGER_USE_COLOR``
+If the library is compiled with ``-DVQ_LOGGER_USE_COLOR`` ANSI color escape codes will be used when printing.
