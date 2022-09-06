@@ -1,6 +1,14 @@
 # vQbe logger
 A simple header only library implemented in C99
 
+## Functionality
+
+- [x] Thread-safe
+- [x] Console output
+- [ ] File output
+- [x] UNIX support
+- [ ] Windows support
+
 ## Examples
 ### Default
 ![Example image](./examples/example.png)
